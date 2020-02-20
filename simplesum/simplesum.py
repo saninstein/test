@@ -1,7 +1,7 @@
 from typing import List, Union
 
 
-def sum(x: List) -> Union[int, float]:
+def ssum(x: List) -> Union[int, float]:
     """
     Sum of array items
 
@@ -17,7 +17,7 @@ def sum(x: List) -> Union[int, float]:
 
     Examples
     -------
-    >>> sum([1, 2])
+    >>> ssum([1, 2])
     3
     """
 
