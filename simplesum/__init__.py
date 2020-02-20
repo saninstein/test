@@ -1,1 +1,1 @@
-from .simplesum import sum  # noqa
+from .simplesum import ssum  # noqa
