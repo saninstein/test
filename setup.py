@@ -8,6 +8,7 @@ pip_session = PipSession()
 def parse_reqs(path):
     return [str(r.req) for r in parse_requirements(path, session=pip_session)]
 
+
 with open('README.md') as f:
     DESCRIPTION = f.read() 
 
