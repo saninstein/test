@@ -1,5 +1,3 @@
-numpydoc
-pdoc3
 pytest
 pytest-cov
 flake8
