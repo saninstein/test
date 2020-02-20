@@ -30,4 +30,4 @@ jobs:
         python -m doctest simplesum/simplesum.py
     - name: Test with pytest
       run: |
-        pytest
+        pytest test.py
