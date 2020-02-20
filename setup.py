@@ -17,7 +17,7 @@ setup(
     author="Alex Bibik",
     author_email="saninstein@gmail.com",
     description="simple sum",
-    long_description=,
+    long_description=DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/saninstein/test",
     classifiers=[
