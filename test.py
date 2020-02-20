@@ -1,5 +1,5 @@
 from simplesum import ssum
 
 
-def test():
+def test_():
     assert ssum([1, 0]) == 1
