@@ -10,7 +10,7 @@ def parse_reqs(path):
 
 
 with open('README.md') as f:
-    DESCRIPTION = f.read() 
+    DESCRIPTION = f.read()
 
 setup(
     name='simple-sum',
