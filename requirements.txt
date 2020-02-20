@@ -1,0 +1,5 @@
+numpydoc
+pydoc
+pytest
+pytest-cov
+flake8
