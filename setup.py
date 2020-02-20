@@ -11,6 +11,22 @@ def parse_reqs(path):
 
 setup(
     name='simplesum',
+    version="0.0.1",
+    author="Alex Bibik",
+    author_email="saninstein@gmail.com",
+    description="simple sum",
+    long_description="""
+    # simplesum
+    Just a sum)
+    """,
+    long_description_content_type="text/markdown",
+    url="https://github.com/saninstein/test",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
     packages=find_packages(include=["simplesum*"]),
     extras_require={
         "dev": parse_reqs("requirements.txt"),
