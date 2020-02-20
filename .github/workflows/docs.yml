@@ -23,6 +23,7 @@ jobs:
     - name: Build docs
       run: |
         pdoc --html simplesum/simplesum.py
+        mv html/simplesum.html html/index.html
     - name: Deploy docs
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
