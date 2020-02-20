@@ -1,4 +1,4 @@
-from simplesum import sum as ssum
+from simplesum import ssum
 
 
 def test():
