@@ -12,7 +12,7 @@ def parse_reqs(path):
 
 
 setup(
-    name=simplesum,
+    name='simplesum',
     packages=find_packages(include=["simplesum*"]),
     extras_require={
         "dev": parse_reqs("requirements.txt"),
