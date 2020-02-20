@@ -10,7 +10,7 @@ def parse_reqs(path):
 
 
 setup(
-    name='simplesum',
+    name='simple-sum',
     version="0.0.1",
     author="Alex Bibik",
     author_email="saninstein@gmail.com",
