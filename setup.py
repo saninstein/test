@@ -14,7 +14,7 @@ with open('README.md') as f:
 
 setup(
     name='simple-sum',
-    version="0.0.2",
+    version="0.0.5",
     author="Alex Bibik",
     author_email="saninstein@gmail.com",
     description="simple sum",
