@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
+    - name: Print ref
+      run: echo ${{ github.ref }}
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -41,8 +43,6 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.7
-      - name: Print ref
-        run: echo ${{ github.ref }}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
