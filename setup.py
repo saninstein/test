@@ -3,6 +3,8 @@ from pip._internal.network.session import PipSession
 from pip._internal.req import parse_requirements
 
 pip_session = PipSession()
+with open('.version') as f:
+    VERSION = f.read()
 
 
 def parse_reqs(path):
@@ -14,7 +16,7 @@ with open('README.md') as f:
 
 setup(
     name='simple-sum',
-    version="0.0.5",
+    version=VERSION,
     author="Alex Bibik",
     author_email="saninstein@gmail.com",
     description="simple sum",
