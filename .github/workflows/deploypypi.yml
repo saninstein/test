@@ -21,6 +21,8 @@ jobs:
       - name: Building distribution archives
         run: |
           python setup.py sdist bdist_wheel
+          cd dist
+          for f in * ; do mv -- "$f" "$(date +"%Y-%m-%d-%T")_$f" ; done
       - name: Deploying the distribution archives
         run: |
           echo "[pypi]
