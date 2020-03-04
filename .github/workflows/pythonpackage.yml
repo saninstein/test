@@ -34,7 +34,7 @@ jobs:
   deploy:
     needs: [checks]
     runs-on: [ubuntu-latest]
-    if: contains(github.ref, "release")
+    if: contains(github.ref, 'release')
     steps:
       - uses: actions/checkout@master
       - name: Set up Python
