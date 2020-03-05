@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.7.5" />
 <title>simplesum API documentation</title>
-<meta name="description" content="" />
+<meta name="description" content="Installation …" />
 <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
@@ -20,11 +20,24 @@
 <h1 class="title">Module <code>simplesum</code></h1>
 </header>
 <section id="section-intro">
+<p>Installation</p>
+<p><code>pip install simple-sum</code></p>
+<p>Installation for development use:</p>
+<p><code>pip install simple-sum[dev]</code></p>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">from typing import List, Union
+<pre><code class="python">&#34;&#34;&#34;
+Installation
+
+`pip install simple-sum`
+
+Installation for development use:
+
+`pip install simple-sum[dev]`
+&#34;&#34;&#34;
+from typing import List, Union
 
 
 def ssum(x: List) -&gt; Union[int, float]:
