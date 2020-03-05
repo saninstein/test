@@ -1,3 +1,12 @@
+"""
+Installation
+
+`pip install simple-sum`
+
+Installation for development use:
+
+`pip install simple-sum[dev]`
+"""
 from typing import List, Union
 
 
